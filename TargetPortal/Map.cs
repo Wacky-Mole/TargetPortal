@@ -118,7 +118,8 @@ public static class Map
 			__instance.m_icons.Add(new Minimap.SpriteData
 			{
 				m_name = (Minimap.PinType)pinType,
-				m_icon = TargetPortal.portalIcon
+				m_icon = TargetPortal.portalIcon,
+				m_icon.name = "TargetPortalIcon"
 			});
 		}
 	}
